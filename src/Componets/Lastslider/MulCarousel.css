@@ -1,0 +1,256 @@
+/*hide 1024,475*/
+.laptopcarousel1024,.mobilecarousel425{
+    display: none;
+}
+
+
+.carousel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-content {
+    display: flex;
+    transition: all 250ms linear;
+    -ms-overflow-style: none;  /* hide scrollbar in IE and Edge */
+    scrollbar-width: none;  /* hide scrollbar in Firefox */
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-content > * {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.carousel-content.show-2 > * {
+    width: 80%;
+}
+
+.carousel-content.show-3 > * {
+    width: calc(100% / 3);
+}
+
+.carousel-content.show-4 > * {
+    width: calc(100% / 4);
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.left-arrow {
+    left: -14px;
+}
+
+.right-arrow {
+    right: -24px;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .left-arrow, .right-arrow {
+        display: none;
+    }
+}
+@media  screen and (max-width:768px) {
+    .carousel-content.show-3 > * {
+        width: calc(100% / 2);
+    }
+    
+}
+/*card inside*/
+/*inside card  tittle*/
+.uk-card-title
+{
+    font-size: 1.1875rem !important;
+    border-left: 1px;
+}
+.starting{
+color: #666;
+    font-size: .75rem;
+    padding-top: 6px;
+}
+/*price*/
+.price{
+    color: rgb(24, 24, 24);
+    height: 28px;
+    font-size: 1.5rem;
+    font-family: TT Norms W05 Medium,Myriad W08 Semibold,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+    letter-spacing: -.2px;
+    line-height: 1.17;
+
+}
+/*list in card*/
+.list5{text-align: left;
+    
+}
+
+/*button first*/
+#buy.uk-button {
+    border-radius: 4px !important;
+    background-color: #006ce1 !important;
+    font-size: 1.0625rem !important;
+   line-height: normal !important;
+   width: 100% !important;
+   text-transform: none !important;
+}
+#buy.uk-button:hover
+{
+    background-color: #133ce1 !important;
+
+}
+/*space b/w two buttons*/
+.spacebtn{
+    padding: 5px;
+
+}
+/*button second*/
+#learnmore.uk-button {
+    border-radius: 4px !important;
+    background-color: transparent !important;
+    border: solid #006ce1 !important;
+     color: #006ce1 !important;
+    font-size: 1.0625rem !important;
+   line-height: normal !important; 
+   width: 90% !important;
+   text-transform: none !important;
+   
+    
+}
+#learnmore.uk-button:hover
+{
+    background-color: #006ce1 !important;
+    color:whitesmoke !important;
+
+}
+
+
+/*shopping*/
+.css-9dk9n-MuiPaper-root {
+    box-shadow:none !important;
+}
+/*writing in total in shopping  grid this mainly affect thick writing*/
+.css-ahj2mt-MuiTypography-root {
+    font-size: .875rem !important;
+    letter-spacing: -.2px !important;
+    
+    color: #181818 !important;
+    padding: 1px !important;
+    transform: translate(10px,10px) !important;
+    text-align: left !important;
+}
+/* id sh1 given size*/
+#sh1.css-ahj2mt-MuiTypography-root {
+    font-weight: 500 !important;
+}
+/* id sh2 given size down writing*/
+#sh2.css-ahj2mt-MuiTypography-root {
+    font-size: .8125rem !important;
+     color: #666 !important;
+}
+
+
+/*gird postition adjest cheyanne centre akkane total grid*/ 
+
+
+#shope.css-mhc70k-MuiGrid-root{
+    padding-top: 50px !important;
+    margin-left: 80px !important;
+    padding-bottom: 50px !important;
+}
+
+
+
+@media screen  and (max-width:1025px){
+    /*shopping arrangements*/
+    .papership
+    {
+        max-width: 900px !important;
+        
+    }
+    
+#shope.css-mhc70k-MuiGrid-root{
+    padding-top: 50px !important;
+    margin-left: 0px !important;
+    padding-bottom: 50px !important;
+
+}
+/*slide for phone images *******************************************************************************************/
+/*hide images for desktopview,475*/
+.desktopcarousel{
+    display: none;
+}
+/*disply images for 1024*/
+.laptopcarousel1024{
+    display: block;
+}
+
+/*mobile card background color*/
+#panelwidth.uk-panel{
+
+    background-color: transparent
+}
+
+
+
+}
+
+/******************************************475*****************************************/
+@media screen and (max-width:426px){
+    .laptopcarousel1024{
+        display: none;
+    }
+    .mobilecarousel425{
+        display: block;
+    }
+    
+/************************************shipping*************************************************************/
+    /*writing first move*/
+    #sh1.css-ahj2mt-MuiTypography-root {
+        font-weight: 500 !important;
+      
+        margin-left: 50px;
+        margin-top: -50px;
+        transform: translateY(-20px);
+    }
+
+    /*writing second move*/
+#sh2.css-ahj2mt-MuiTypography-root {
+    font-size: .8125rem !important;
+    color: #666 !important;
+    margin-left: 50px;
+}
+
+/*card */
+#panelwidth.uk-panel{
+
+    background-color: #f5f5f5;;
+}
+
+}

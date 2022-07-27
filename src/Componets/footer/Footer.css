@@ -1,0 +1,413 @@
+.foo1{
+    font-size: .8125rem !important;
+    font-weight: 700 !important;
+}
+.foo2{
+      color:  #181818;
+      font-size: .8125rem  !important;
+}
+.foo3{
+    color: #666;
+    font-size: .8125rem  !important;
+}
+/*padding*/
+.facebook{
+    padding-right: 10px;
+    width: 40px; /*whatAPP icon size*/
+    height: 40px;
+    transform: translate(550px,-590px);
+}
+
+
+/*facebookRog icon size and padding*/
+.facebookRog{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    transform: translate(370px,-550px);
+
+}
+/*first table padding*/
+.uk-table1 td{
+    padding-top: 5px !important;
+    padding-right: 12px;
+    padding-bottom: 5px !important; 
+    padding-left: 12px;
+    vertical-align: top;
+}
+ /*first table width*/
+.uk-table1 {width: 70% !important;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/*second table padding*/
+
+.community{
+    transform: translate(450px,-575px) !important;
+    font-size: .8125rem !important;
+    font-weight: 700 !important;
+}
+/*support alignment*/
+td.foo1support{
+    transform: translateY(10px) !important;
+    font-size: .8125rem !important;
+    font-weight: 700 !important;
+}
+/*footer last gap*/
+.footerlast{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/*Terms of Use Notice*/
+.footerlast1{
+    float: left;
+    
+    margin-left: 150px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    font-size: .8125rem
+}
+.footerlast2{
+    float: left;
+    
+    margin-left: 10px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    font-size: .8125rem
+}/*privacy policy*/
+.footerlast3{
+    float: left;
+    
+    margin-left: 10px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    font-size: .8125rem
+}
+/*|*/
+.footerlast4{
+    float: left;
+    
+    margin-left: 10px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    font-size: .8125rem
+}
+/*©ASUSTeK Computer Inc. All rights reserved*/
+.footerlast5{
+    float: left;
+    
+    margin-left: 10px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    font-size: .8125rem
+}
+.footerlast6{
+    float: left;
+    
+    margin-left: 650px;
+    line-height: 16px;
+    position: relative;
+    color: #666;
+    
+    font-size: .8125rem
+}
+.uk-table2 ,.instagram425,.twitter320,.youtube375{
+    display: none;
+}
+
+/****************************scrollicon************************/
+#scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translateX(700px);
+   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1025px){
+
+   
+ /*first table width*/
+ .uk-table1 {width: 90% !important;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+/*community hide*/
+.community{display: none;
+
+}
+
+/*padding*/
+.facebook{
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+ 
+    width: 55px; /*whatAPP icon size*/
+    height: 55px;
+    transform: translateX(40px);
+}
+
+
+/*facebookRog icon size and padding*/
+.facebookRog{
+    width: 55px;
+    height: 55px;
+    padding-right: 10px;
+    transform: translateX(50px);
+
+}
+.instagram425{
+    display: none;
+}
+
+/*Terms of Use Notice*/
+.footerlast1{
+    
+    
+    margin-left: 30px;
+    
+}
+.footerlast6{
+    float: right;
+    margin-right: 20px;
+    transform: translateY(-10px);
+}
+
+/****************************scrollicon************************/
+#scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translateX(400px);
+}
+
+
+
+
+}
+
+/***********************************************769******************************************/
+@media screen and (max-width:769px){
+    
+
+
+/*padding*/
+.facebook{
+    margin-top: 30px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+ 
+    width: 50px; /*whatAPP icon size*/
+    height: 50px;
+    transform: translateX(30px);
+}
+
+
+/*facebookRog icon size and padding*/
+.facebookRog{
+    width: 50px;
+    height: 45px;
+    padding-right: 20px;
+    transform: translateX(40px);
+
+}
+
+
+/*Terms of Use Notice*/
+.footerlast1{
+    
+    
+    margin-left: 30px;
+    
+}
+.footerlast6{
+    margin-right: 5px;
+    transform: translateY(-10px);
+}
+/*scroll icon*/
+#scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translate(278px,-0px);
+}
+
+}
+
+@media screen and (max-width:426px){
+    .uk-table1 {
+        display: none !important;
+    }
+    .uk-table2{
+        display: block !important;
+        margin-left: 20px;
+        
+    }
+    .footer4251
+    {
+        font-size: .8125rem;   
+    font-weight: 700; 
+    
+    text-align: left;
+}
+/*this is depending on divider*/
+td.footer4251{
+    width: 380px;
+    
+}
+/* + arrange in right side*/
+.addicon{
+float: right;
+}
+/*icon aligments*/
+/*first set icons*****************************************************************/
+.facebook{transform: translate(50px, -10px);}
+/*second set icons **************************************************************/
+.facebookRog{
+ 
+        transform: translate(-180px,50px);
+        padding-right: 10px;
+        width: 50px;
+        height: 50px;
+    
+}
+/*hide instagram first set************************************/
+#instagram.facebookRog{
+    display: none;
+}
+
+/*instagram only for 425*/
+.instagram425{
+   
+    
+        display: block;
+        width: 45px;
+        height: 45px;
+        transform: translate(230px, -30px);
+    
+}
+
+/*hide divider*/
+#divider425{
+    display: none;
+}
+/*footer icons*/
+    .footerlast6 {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-right: 300px;
+        transform: translateX(-100px);
+        transform: translateY(-60px);
+    }
+    /*world icon */
+    .footerlast1 ,.footerlast2,.footerlast3,.footerlast4{
+   
+        padding-top: 15px;
+    }
+    /*footer @ word*/
+      .footerlast5{
+        margin-left: 28px
+      }
+/*scroll icon*/
+#scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translate(140px,300px);
+
+}
+
+}
+
+/**********************************************************375*************************************************/
+@media screen and (max-width:376px) {
+    /*this is depending on divider*/
+td.footer4251{
+    width: 320px;
+    
+}
+/*hide first youtube*/
+#youtube.facebookRog{
+    display: none;
+}
+/*fix youtube icon position*/
+.youtube375{
+   
+    
+    display: block;
+    width: 45px;
+    height: 45px;
+    transform: translate(180px, -70px);
+
+}
+.footerlast6 {margin-right: 0px;
+
+    transform: translate(-250px,-100px);
+}
+.footerlast1 ,.footerlast2,.footerlast3,.footerlast4{
+   
+    transform: translateY(-30px);
+}
+/*footer @ word*/
+.footerlast5{
+
+    transform: translateY(-30px);
+  }
+  /*scroll icon*/
+  #scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translate(120px,300px);
+
+}
+}
+
+/*****************************************320*********************************************************/
+
+@media screen and (max-width:321px) {
+    /*this is depending on divider*/
+td.footer4251{
+    width: 280px;
+    
+}
+/*hide first twitter*/
+#twitter.facebookRog{
+    display: none;
+}
+/*fix youtube icon position*/
+.twitter320{
+   
+    
+    display: block;
+    width: 45px;
+    height: 45px;
+    transform: translate(130px, -74px);
+}
+
+
+.youtube375{
+   
+
+    transform: translate(180px, -120px);
+
+}
+.footerlast6 {margin-right: 0px;
+
+    transform: translate(-200px,-100px);
+}
+/*scroll icon*/
+#scrollicon.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color:grey;
+    transform: translate(120px,520px);
+
+}
+}

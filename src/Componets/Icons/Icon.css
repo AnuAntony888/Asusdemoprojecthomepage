@@ -1,0 +1,104 @@
+
+.Hot{
+    font-size: 42px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -.6px;
+    color: #181818;
+    padding-top: 50px;
+    font-weight: 600;
+
+   
+}
+/*hide shawdow for box*/
+
+.css-10k7oek-MuiPaper-root {
+    box-shadow: none !important;
+}
+.css-14bg2sv-MuiPaper-root
+{
+    box-shadow: none !important;
+}
+
+
+.css-ahjhu0-MuiPaper-root
+{
+    box-shadow: none !important;
+}
+/*space b/w the icon and writing*/
+.i1{
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+}
+/*space b/w writing dow the icons*/
+
+.i2{   
+    
+    padding-top: 100px !important;
+    padding-right: 100px !important;
+    padding-bottom: 20px !important;
+    padding-left: 100px !important;
+    line-height: 18px;
+    font-size: .9475rem;
+    max-height: 36px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #181818;
+    word-break: break-word;
+    
+}
+/*mobile writing alinment*/
+#im1.css-ahj2mt-MuiTypography-root{
+    transform: translateX(20px ) !important;
+}
+/*mobile underline*/
+#im1.css-ahj2mt-MuiTypography-root:hover{
+    text-decoration: underline !important;   
+    text-decoration-thickness: 5px !important;
+   
+    text-underline-offset: 10px !important;
+
+}
+/*laptop writing alinment*/
+#im2.css-ahj2mt-MuiTypography-root{
+    transform: translateX(20px ) !important;
+}
+/*laptop underline*/
+#im2.css-ahj2mt-MuiTypography-root:hover{
+    text-decoration: underline !important;   
+    text-decoration-thickness: 5px !important;
+   
+    text-underline-offset: 10px !important;
+
+}
+/*desktop underline*/
+#im3.css-ahj2mt-MuiTypography-root:hover{
+    text-decoration: underline !important;   
+    text-decoration-thickness: 5px !important;
+   
+    text-underline-offset: 10px !important;
+
+}
+/*see alldeals underline*/
+#im4.css-ahj2mt-MuiTypography-root:hover{
+    text-decoration: underline !important;   
+    text-decoration-thickness: 5px !important;
+   
+    text-underline-offset: 10px !important;
+
+}
+
+@media screen and (max-width:769px){
+    /*icons grid movements */
+    #hai.css-mhc70k-MuiGrid-root
+    {
+        margin-left: 50px !important;
+        transform: translateY(-15px) !important;
+        width: calc(95% ) !important;
+    }
+    
+}
+
+/***************************************425****************************************/

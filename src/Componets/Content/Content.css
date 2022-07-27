@@ -1,0 +1,731 @@
+body{
+  overflow-x: hidden !important;
+}
+
+.syperseurity
+{
+  background-color: #015ec5;
+  color: rgb(255, 255, 255);
+  margin-top: 65px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+/*slide show image size*/
+.s1,.s2,.s3,.s4,.s5,.s6{min-height: 777px;
+max-width: 110%;
+text-align: center !important;
+object-fit: cover;
+vertical-align: middle !important
+}
+
+/*1024 images*/
+.s11024,.s21024,.s31024,.s41024,.s51024,.s61024,.s2text1024,.s1768,.s2768,.s3768,.s4768,.s5768,.s6768,
+.s1425,.s2425,.s3425,.s4425,.s5425,.s6425,.s1375,.s2375,.s3375,.s4375,.s5375,.s6375,.s1320,.s2320,.s3320,.s4320,.s5320,.s6320 {display: none;}
+
+
+/*s2 image text ASUS regular series*/
+.s2text{
+font-family: ROGFonts-Regular;
+ font-size: 65px;
+  line-height: 1.16em;
+  color: rgb(183, 221, 242);
+  font-weight: 800;
+  text-align: left;
+
+  transform: translate(100px,-600px);
+ 
+}
+/*s2 image text break all*/
+.s2text1{
+ 
+   font-size: 32px;
+    line-height: 1.16em;
+     font-weight: 500;
+     text-align: left;
+    transform: translate(100px,-590px);
+   
+  }
+/*s2 image text cpu ...*/
+.s2text2{
+ 
+  
+    font-weight: 500;
+    color: rgb(183, 221, 242);
+    font-family: "TT Norms W05 Regular","Myriad W08 Regular","Segoe UI","Arial","PingFang TC","Microsoft JhengHei",sans-serif;
+    text-align: left;
+   transform: translate(100px,-590px);
+   font-size: 1.375rem;
+   line-height: 1.27;
+   
+  
+ }
+ /*learn more*/
+ .s2learnmore{
+  font-size:1.1875rem;
+ font-weight: 500;
+ color: white !important;
+ 
+ text-align: left;
+transform: translate(-600px,-650px);
+
+
+ }
+ 
+
+/*mouse learn more kodukaruppole*/
+
+
+
+ .s2learnmore:hover{
+  text-decoration: underline !important;
+  text-underline-offset: 10px !important;
+  text-decoration-thickness: 2px !important;
+  
+ }
+
+
+
+
+
+  
+
+
+/* content2 slide2******************************************************/
+.img2{
+    max-width: 135% !important;
+    transform: translateY(100px) !important;
+    object-fit: cover;
+    
+}
+.img21024,.img2768,.img2425,.img2375,.img2320{
+  display: none;
+}
+
+  
+
+/*slide3 -card****************************************************************/
+/*card writing 1*/
+.img3{
+    margin-top: 20px;
+    width: 404px;
+    height: 48px;
+    z-index: 50 !important;
+}
+/*card writing 2*/
+.img4{
+    margin-top: 20px;
+    width: 404px;
+    height: 48px;
+    z-index: 50 !important;
+}
+.a{
+
+    color: gray !important;
+    text-transform: none !important;
+    border: none !important ;
+ font-size: 1.1875rem  !important;
+ font-weight: 300 !important;
+ top: 20px !important;
+ z-index: 50 !important;
+
+}
+.a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    
+    bottom: 0;
+    left: 0;
+    
+    
+    background-color:grey !important;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .a:hover:after {
+    transform: scaleX(1) ;
+    transform-origin: bottom left ;
+  }
+  /*card image 1 zenbook*/
+  .css-o69gx8-MuiCardMedia-root {
+    width: 1000px;
+    height: 500px;
+    z-index: -1 !important;
+    transform: translateY(-50px) !important;
+   
+    
+  }
+
+    /*card 1 images*/
+    #blueimg3.css-o69gx8-MuiCardMedia-root,.sliverimg3.css-o69gx8-MuiCardMedia-root ,#purbleimg4.css-o69gx8-MuiCardMedia-root{
+      display: block;
+      border: transparent !important;
+      z-index: -50;
+    }
+    #blueimg3768.css-o69gx8-MuiCardMedia-root,#sliverimg3768.css-o69gx8-MuiCardMedia-root,#sliverimg3475.css-o69gx8-MuiCardMedia-root ,#purbleimg4768.css-o69gx8-MuiCardMedia-root,#purbleimg4475.css-o69gx8-MuiCardMedia-root,
+    #blackimg4768.css-o69gx8-MuiCardMedia-root,#blackimg4475.css-o69gx8-MuiCardMedia-root{
+      display: none;
+    }
+
+  
+  
+  
+  /*slide 4************************************************************************************/
+  .uk-panel{
+    background-color: #f5f5f5;
+  }
+  /*heading*/
+  .rog{
+    max-height: 40.8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    letter-spacing: -.2px;
+    color: grey;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /*campaigns and events images*/
+  .img-wrapper{
+    overflow:hidden;
+    width: 400;
+  }
+  .img-wrapper:hover {
+    transform: scale(1.1);
+  }
+  /*button*/
+  .b{
+
+    color: rgb(22, 83, 238) !important;
+    text-transform: none !important;
+    border: none !important ;
+ font-size: 1.1875rem  !important;
+ font-weight: 300 !important;
+ top: -5px !important;
+ z-index: 50 !important;
+
+}
+.b:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    
+    bottom: 0;
+    left: 0;
+    
+    
+    background-color:grey !important;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .b:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  /*tab view slide4******************************************/
+  .tab,.mobilecamp425{
+    display: none;
+  } 
+  @media  screen and (max-width:1025px) {
+    .lap{display: none;}
+    .tab{
+      display: block;
+    } 
+}
+
+/*card */
+#card1.css-mhc70k-MuiGrid-root {
+  margin-left: 5px !important;
+  width: calc(98%) !important;
+  padding-top: 280px !important;
+}
+
+@media screen and (max-width:1025px) {
+  body{
+    overflow-x: hidden !important;
+  }
+  /*slide show images*/
+/*hide laptop images */
+    .s1,.s2,.s3,.s4,.s5,.s6{
+      display: none;
+    }/*slide show image height*/
+    .uk-slideshow-items {
+      height: 700px !important;
+    }
+    /*disply images 1024 slide show*/
+    .s11024,.s21024,.s31024,.s41024,.s51024,.s61024{
+      display: block;
+      height: 700px !important;
+      object-fit: cover;
+    }
+    /*slide two text*/
+    .s2text{
+      display: none;
+    }
+    /*asus 960 in 1024*/
+    .s2text1024{
+      display: block;
+      font-family: "TT Norms W05 Medium", "Myriad W08 Semibold", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif; 
+      font-size: 42px; 
+      line-height: 1.16em;
+      color: rgb(183, 221, 242);
+      transform: translate(35px,-650px);
+      font-weight: 600;
+      
+    }
+    /*s2 image text break all 1024*/
+.s2text1{
+ 
+  font-size:  2rem;
+   line-height: 1.16em;
+    font-weight: 500;
+  color: aliceblue;
+    
+   transform: translate(400px,-650px);
+   
+   
+   letter-spacing: -.2px;
+   line-height: 110%;
+
+  
+ }
+/*s2 image text cpu 1024...*/
+.s2text2{
+ 
+  font-size: 1.375rem;
+    font-weight: 500;
+    color: rgb(183, 221, 242);
+    font-family: "TT Norms W05 Regular","Myriad W08 Regular","Segoe UI","Arial","PingFang TC","Microsoft JhengHei",sans-serif;
+    text-align: left;
+   transform: translate(300px,-650px);
+   
+  
+ }
+ /*learn more 1024*/
+ .s2learnmore{
+  font-size: 2rem;
+  text-transform: none !important;
+ font-weight: 500;
+ color: white !important;
+ 
+ text-align: left;
+transform: translate(35px,-670px);
+
+
+ }
+ 
+
+/*mouse learn more kodukaruppole 1024*/
+
+
+
+ .s2learnmore:hover{
+  text-decoration: underline !important;
+  text-underline-offset: 10px !important;
+  text-decoration-thickness: 2px !important;
+  
+ }
+
+/****************************slide2************************/
+.img21024{
+  display: block;
+  max-width: 100% !important;
+  transform: translateY(140px);
+
+  
+}
+.img2{
+  display: none;
+}
+
+/*card */
+#card1.css-mhc70k-MuiGrid-root {
+  margin-left:5px !important;
+  width: calc(98%) !important;
+  padding-top: 280px !important;
+  
+}
+/*ASus zen book flex s*/
+.img3 {
+   
+  width: 300px;
+  height: 36px;
+  
+}
+/*ASus vivo book*/
+.img4 {
+  width: 300px;
+  height: 36px;
+  z-index: 50px !important;
+}  
+/*slide 4****************************************************************/
+/*card 1 images*/
+#blueimg3.css-o69gx8-MuiCardMedia-root,#sliverimg3.css-o69gx8-MuiCardMedia-root,#purbleimg4.css-o69gx8-MuiCardMedia-root,#purbleimg4475.css-o69gx8-MuiCardMedia-root,
+#blackimg4.css-o69gx8-MuiCardMedia-root{
+  display: none;
+}
+#blueimg3768.css-o69gx8-MuiCardMedia-root{
+  display: block;
+}
+#sliverimg3768.css-o69gx8-MuiCardMedia-root,#purbleimg4768.css-o69gx8-MuiCardMedia-root,#blackimg4768.css-o69gx8-MuiCardMedia-root{
+  margin-top: 5px;
+  display: block;
+  height: 495px;
+}
+.campeve{
+font-size: 2.625rem;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: -.6px;
+color: #181818;
+}
+
+}
+
+
+/*********************************************7689*******************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:769px) {
+     /*hide images 1024 slide show*/
+     .s11024,.s21024,.s31024,.s41024,.s51024,.s61024{
+      display: none;
+      
+    }
+    /*display  768 slide images*/
+    .s1768,.s2768,.s3768,.s4768,.s5768,.s6768{
+      display: block;
+      height: 698px;
+      object-fit: cover;
+    }
+    
+
+/*asus 960 in 1024 use text-768*/
+.s2text1024{
+  
+  font-family: "TT Norms W05 Medium", "Myriad W08 Semibold", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: 42px;
+  line-height: 1.16em;
+
+  transform: translate(30px,-650px);
+  font-weight: 500;
+  
+}
+/*s2 image text break all 1024*/
+.s2text1{
+
+font-size:  2rem;
+line-height: 1.16em;
+font-weight: 500;
+color: aliceblue;
+
+transform: translate(250px,-650px);
+
+
+letter-spacing: -.2px;
+line-height: 110%;
+
+
+}
+/*s2 image text cpu 768...*/
+.s2text2768{display: block;
+  text-align:center;
+  transform: translate(20px,-650px);
+  font-size: 1.375rem;
+  
+    line-height: 1.27;
+    letter-spacing: -.2px;
+    max-height: 84px;
+    
+  font-weight: 300;
+  color: rgb(183, 221, 242);
+  font-family: "TT Norms W05 Regular","Myriad W08 Regular","Segoe UI","Arial","PingFang TC","Microsoft JhengHei",sans-serif;
+
+
+
+}
+/*hide s2 image text cpu 1024...*/
+.s2text2{display: none;}
+
+
+
+/*learn more 1024*/
+.s2learnmore{
+
+text-transform: none !important;
+font-weight: 500;
+color: white !important;
+min-height: 32px;
+font-size: 50px;
+text-align: left;
+transform: translate(35px,-660px);
+
+
+}
+
+
+/*mouse learn more kodukaruppole 1024*/
+
+
+
+.s2learnmore:hover{
+text-decoration: underline !important;
+text-underline-offset: 10px !important;
+text-decoration-thickness: 2px !important;
+
+}
+/****************************slide2************************/
+.img21024{
+  display: none;
+  
+
+  
+}
+.img2768{
+  display: block;
+  height: 650px !important;
+  object-fit: cover;
+  
+transform: translateY(185px);
+  
+
+  
+}
+/****************************slide3******************************/
+
+/*card down total*/
+#card1.css-mhc70k-MuiGrid-root {
+  padding-top: 370px !important;
+}
+/*ASus zen book flex s*/
+.img3 {
+   
+  width: 300px;
+  height: 36px;
+  
+}
+/*ASus vivo book*/
+.img4 {
+  width: 300px;
+  height: 36px;
+  z-index: 50px !important;
+}  
+/*learn more*/
+.a {
+  font-size: 1.0625rem !important;
+  
+}
+#blueimg3.css-o69gx8-MuiCardMedia-root,#sliverimg3.css-o69gx8-MuiCardMedia-root,#sliverimg3475.css-o69gx8-MuiCardMedia-root{
+  display: none;
+}
+#blueimg3768.css-o69gx8-MuiCardMedia-root,#sliverimg3768.css-o69gx8-MuiCardMedia-root,#sliverimg3768.css-o69gx8-MuiCardMedia-root{
+  display: block;
+  z-index: -1 !important;
+}
+
+
+}
+/****************************************************425***************************************************/
+@media screen and (max-width:426px){
+  /*****************************************slide1*****************************************/
+  .syperseurity {
+   
+    margin-top: 55px;
+ 
+}
+  .s2text1024{
+    display: none;
+  }
+  .s2text{display: block;
+    font-family: ROGFonts-Regular; 
+    font-size: 32px; 
+    line-height: 1.16em;
+    
+    color: rgb(183, 221, 242);
+    font-weight: 800;
+  text-align: center;
+    transform: translate(25px,-550px)}
+    .s2text1{
+      font-size: 1.125rem;
+      font-weight: 700;
+      transform: translate(150px,-570px);
+    }
+    .s2text2768{
+      font-size: .875rem;
+    line-height: 1.3125rem;
+    transform: translate(10px,-580px);
+    }
+
+    .s2learnmore{transform: translate(25px,-605px);
+}
+  /**slide 4 campling mobile carddisply*/
+  .mobilecamp425
+  {display: block;}
+  /*hide laptop and tab card*/
+  .lap,.tab{display: none;}
+  /*slide one***************************************************************************************/
+  .s1768,.s2768,.s3768,.s4768,.s5768,.s6768{display: none;
+  }
+  .s1425,.s2425,.s3425,.s4425,.s5425,.s6425 {
+    display: block;
+    height: 548px;
+    object-fit: cover;
+  }
+  /*----------------------------------slide2---------------------------------------------------------------*/
+  /*hide tab images*/
+  .img2768{display: none;
+  }
+  /*disply mobile image*/
+
+  .img2425{display: block;
+  height: 500px;
+  transform: translateY(-35px);
+
+  object-fit: cover;
+}
+/***************************************slide3*****************************************/
+/*total slide length reduce cheythue*/
+#card1.css-mhc70k-MuiGrid-root {
+  height: 2650px;
+  transform: translateY(-290px);
+}
+
+}
+/**************************************375***************************************************************************/
+
+@media screen and (max-width:376px){
+  /**************slide1*************/
+  .s1425,.s2425,.s3425,.s4425,.s5425,.s6425 {
+    display: none;
+  }
+  .s1375,.s2375,.s3375,.s4375,.s5375,.s6375 {
+    display: block;
+    height: 584px;
+    object-fit: cover;
+  }
+
+  /*slide one writing*/
+  .s2text2{display: block;
+    font-size: .875rem;
+  line-height: 1.3125rem;
+  transform: translate(3px,-580px);
+  font-weight: 100;
+  text-align: center;
+  }
+
+ .s2text2768{
+  display: none;
+ }
+
+/*breasking*/
+
+.s2text1{
+  font-size: 1.125rem;
+  font-weight: 700;
+  transform: translate(120px,-570px);
+}
+/*asus*/
+.s2text{display: block;
+  font-family: ROGFonts-Regular; 
+  font-size: 32px; 
+  line-height: 1.16em;
+  
+  color: rgb(183, 221, 242);
+  font-weight: 800;
+text-align: center;
+  transform: translate(15px,-550px)}
+
+/********************************slide2*********************************************/
+.img2425{
+  display: none;
+}
+.img2375{
+  display: block;
+  height: 500px;
+  object-fit: cover;
+}
+/***************************************slide3*****************************************/
+/*total slide length reduce cheythue*/
+#card1.css-mhc70k-MuiGrid-root {
+  height: 2650px;
+  transform: translateY(-260px);
+  padding-left: 5px !important;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;
+}
+/**************************************slide4***************************************/
+/*heading*/
+.campeve{
+font-size: 1.5rem;
+letter-spacing: -.4px;
+color: black;
+font-weight: 600;
+}
+/*see all button*/
+.b{transform: translateY(-30px);}
+
+}
+
+/*******************************************************320*****************************************************/
+@media screen and (max-width:321px) {
+    /**************slide1*************/
+    .s1375,.s2375,.s3375,.s4375,.s5375,.s6375{
+      display: none;
+    }
+    .s1320,.s2320,.s3320,.s4320,.s5320,.s6320 {
+      display: block;
+      height: 548px;
+      object-fit: cover;
+    }
+    /*writings*/
+    .s2text1 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      transform: translate(100px,-570px);
+  
+}
+/********************************slide2*********************************************/
+.img2375{
+  display: none;
+}
+.img2320{
+  display: block;
+  height: 500px;
+  object-fit: cover;
+  transform: translateY(-40px);
+}
+/***************************************slide3*****************************************/
+/*total slide length reduce cheythue*/
+#card1.css-mhc70k-MuiGrid-root {
+  height: 2600px;
+  transform: translateY(-295px);
+  padding-left: 5px !important;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;
+}
+
+}
